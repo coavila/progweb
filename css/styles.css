@@ -1,0 +1,182 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    text-decoration: none;
+    list-style: none;
+}
+
+body {
+    font-family: 'Poppins', sans-serif;
+}
+
+img {
+    max-width: 100%;
+}
+
+.container {
+    max-width: 1200px;
+    margin: 0 auto;
+}
+
+.header {
+    display: flex;
+    align-items: center;
+    background-color: rgb(227, 227, 227);
+    padding: 130px 0 0 0;
+}
+
+.menu {
+    position: absolute;
+    top: 0;
+    left: o;
+    right: 0;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.logo {
+    font-size: 25px;
+    color: brown;
+    text-transform: uppercase;
+    font-weight: 800;
+}
+
+.menu .navbar ul li {
+    position: relative;
+    float: left;
+}
+
+.menu .navbar ul li a {
+    font-size: 18px;
+    padding: 20px;
+    color: rgb(34, 33, 33);
+    display: flex;
+}
+
+.menu .navbar ul li a:hover {
+    color: rgb(179, 54, 54);
+}
+
+#menu {
+    display: none;
+}
+
+.menu-icono {
+    width: 20px;
+}
+
+.menu label {
+    cursor: pointer;
+    display: none;
+}
+
+.submenu {
+    position: relative;
+}
+
+.submenu #carrito {
+    display: none;
+}
+
+.submenu:hover #carrito {
+    display: block;
+    position: absolute;
+    right: 0;
+    backdrop-filter: blur (5px);
+    top: 100%;
+    z-index: 1;
+    background-color: rgb(139, 136, 136);
+    padding: 20px;
+    min-width: 400px;
+}
+
+table {
+    width: 100%;
+}
+
+th, td {
+    color: rgb(241, 246, 249);
+}
+
+
+.header-content {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.header-txt {
+    flex-basis: 50%;
+    margin-right: 25px;
+}
+
+span {
+    color: blue;
+    font-size: 17px;
+    font-weight: 600;
+    display: block;
+    margin-bottom: 25px;
+}
+
+.header-txt h1 {
+    font-size: 70px;
+    text-transform: capitalize;
+    line-height: 1;
+    color: rgb(30, 29, 29);
+    margin-bottom: 35px;
+}
+
+.header-txt p {
+    font-size: 17px;
+    color: rgb(159, 157, 157);
+    margin-bottom: 35px;
+}
+
+.butons {
+    display: flex;
+}
+
+.btn-1 {
+    display: inline-block;
+    padding: 13px 25px;
+    background-color: rgb(179, 54, 54);
+    margin-right: 20px;
+    color: rgb(241, 246, 249);
+    text-transform: capitalize;
+    margin-bottom: 100px;
+}
+
+.header-img {
+    flex-basis: 50%;
+    text-align: center;
+}
+
+.header-img img {
+    height: 100%;
+}
+
+.oferts {
+    padding: 100px 0;
+    display: flex;
+    justify-content: space-between;
+}
+
+.ofert-1 {
+    flex-basis: calc(33.3% - 20px);
+    padding: 10px 15px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.b1 {
+    background-color: rgb(218, 128, 128);
+}
+.b2 {
+    background-color: rgb(218, 128, 128);
+}
+.b3 {
+    background-color: rgb(218, 128, 128);
+}
